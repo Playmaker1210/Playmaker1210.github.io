@@ -1,0 +1,102 @@
+body {
+    background-color: #c6ced1;
+}
+
+.flex-container-row {
+    display: flex;
+    flex-direction: row;
+    /*align-items: center;*/
+}
+
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+}
+
+#nav {
+    margin-top: 1%;
+    justify-content: space-between;
+    background-color: #a7a7a7;
+    margin-bottom: 4%;
+    flex-flow: row wrap;
+    border-radius: 10px;
+}
+
+#nav>div {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: radial-gradient(#f1f1f1 10%, #d3d3d3 80%);
+}
+
+#me {
+    width: 400px;
+    border-radius: 15px;
+}
+
+#ftsImg {
+    width: 700px;
+    border-radius: 20px;
+}
+
+#pRImg {
+    width: 650px;
+    border-radius: 20px;
+}
+
+#tttImg {
+    width: 700px;
+    border-radius: 20px;
+}
+
+#maleImg{
+    width: 64px;
+}
+
+.flex-container-row>div {
+    background-color: #bebebe;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.flex-container-column>div {
+    /*background-color: #bebebe; */
+    /*margin: 10px;*/
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+}
